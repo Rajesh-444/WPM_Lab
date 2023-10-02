@@ -3,11 +3,12 @@
 body {
   font-family: "Cabin", Arial, sans-serif;
   color: #ffffff;
-  background-color: #108a93;
+  background-color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lobster', cursive;
+  color: black;
 }
 
 .navbar {
@@ -28,6 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 small {
   color: #aaa;
+}
+
+img{
+  width:550px;
+  height:250px;
 }
 
 .card {

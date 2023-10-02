@@ -35,7 +35,7 @@ block content
           .card.card-primary
             .card-block
               h2.card-title Location map
-              img.img-fluid.rounded(src=`http://maps.googleapis.com/maps/api/staticmap?center=${location.coords.lat},${location.coords.lng}&zoom=17&size=400x350&sensor=false&markers=${location.coords.lat},${location.coords.lng}&scale=2`)
+              img.img-fluid.rounded(src=`https://storage.googleapis.com/lb-images-asia/in/2222146/staticmap.png_webp.webp`)
       .row
         .col-12
           .card.card-primary.review-card
@@ -51,6 +51,6 @@ block content
                     small.reviewTimestamp #{review.timestamp}
                   .col-12
                     p !{(review.reviewText).replace(/\n/g, '<br/>')}
-    .col-12.col-lg-3
+    .col-12.col-lg-3  
       p.lead #{location.name} #{sidebar.context}
       p= sidebar.callToAction

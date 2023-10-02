@@ -15,6 +15,8 @@ block content
           .card-block
             h4
               a(href="/location")= location.name
+              br
+              img(src=location.imgurl)
               small &nbsp;
                 //- +outputRating(location.rating)
               span.badge.badge-pill.badge-default.float-right= location.distance
